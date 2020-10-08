@@ -44,7 +44,7 @@ int test_factorial(void) {
   CU_ASSERT(720 == factorial_func(6));
 
   /* Dummy fail*/
-  CU_ASSERT(100 == factorial_func(5));
+  CU_ASSERT(120 == factorial_func(5));
 }
 
 int test_prime(void) {
