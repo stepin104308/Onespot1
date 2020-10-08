@@ -20,7 +20,7 @@ int main() {
 
 /* Add your test functions in this format for testing*/
   CU_add_test(suite, "factorial_func", test_factorial);
-  CU_add_test(suite, "prime_func", test_prme);
+  CU_add_test(suite, "prime_func", test_prime);
 
 
 /* Note: Do not edit START*/
