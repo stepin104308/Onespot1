@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test 
-        valgrind ./main.c
+        valgrind ./build/Test_function.out
